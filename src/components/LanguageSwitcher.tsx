@@ -16,7 +16,7 @@ const locales = [
 const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
   const i18nPath = useIntlPathname(); 
-  const rawPath = useRawPathname();  
+  const rawPath = useRawPathname() ?? '';  
 
   const currentLang = locales.find(({ code }) => rawPath.startsWith(`/${code}`)) || locales[0];
 
@@ -24,13 +24,14 @@ const LanguageSwitcher = () => {
     <div className="relative">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="flex items-center gap-2"
+        className="flex items-center  border border-transparent bg-transparent rounded-full"
       >
         <img
           src={currentLang.icon}
           alt={`Flag ${currentLang.label}`}
-          width={24}
-          height={24}
+          width={30}
+          height={30}
+          className="w-8 h-8 rounded-full object-cover"
         />
         <MdOutlineKeyboardArrowDown className="w-4 h-4" />
       </button>
@@ -45,7 +46,7 @@ const LanguageSwitcher = () => {
               className="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 w-full text-left"
               onClick={() => setIsOpen(false)}
             >
-              <img src={lang.icon} alt={lang.label} width={20} height={20} />
+              <img src={lang.icon} alt={`Flag ${lang.label}`} width={20} height={20} className="w-8 h-8 rounded-full object-cover"/>
               <span>{lang.label}</span>
             </Link>
           ))}

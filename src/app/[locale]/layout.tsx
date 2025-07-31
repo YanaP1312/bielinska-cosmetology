@@ -1,8 +1,9 @@
+
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import type {Metadata} from 'next';
-
+import "../globals.css"
 
 import {getTranslations} from 'next-intl/server';
 import Header from '@/components/Header/Header';
@@ -16,7 +17,13 @@ export async function generateMetadata({params}: {params: {locale: string}}): Pr
       template: `%s | ${t('title')}`,
       default: t('title'),
     },
-    description: t('description')
+    description: t('description'),
+    openGraph: {
+      images: ['/opengraph-image.jpeg'],
+    },
+    icons: {
+      icon: '/favicon.ico',
+    },
   };
 }
 
