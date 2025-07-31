@@ -3,9 +3,16 @@
 @tailwind utilities;
 
 :root {
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-petit: 'Petit Formal Script', cursive;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+}
+
+html {
+  font-family: var(--font-cormorant);
 }
 
 

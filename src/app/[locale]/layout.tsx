@@ -7,6 +7,23 @@ import "../globals.css"
 
 import {getTranslations} from 'next-intl/server';
 import Header from '@/components/Header/Header';
+
+import { Cormorant_Garamond, Petit_Formal_Script } from 'next/font/google';
+
+const cormorant = Cormorant_Garamond({
+  weight: ['400', '500', '700'],
+  subsets: ['latin', 'cyrillic'],
+  variable: '--font-cormorant',
+});
+
+const petitScript = Petit_Formal_Script({
+  weight: '400',
+  subsets: ['latin' ],
+  variable: '--font-petit',
+});
+
+
+
  
 export async function generateMetadata({params}: {params: {locale: string}}): Promise<Metadata> {
   const {locale} = params;
@@ -18,6 +35,7 @@ export async function generateMetadata({params}: {params: {locale: string}}): Pr
       default: t('title'),
     },
     description: t('description'),
+    metadataBase: new URL('https://bielinska-cosmetology.vercel.app'),
     openGraph: {
       images: ['/opengraph-image.jpeg'],
     },
@@ -42,7 +60,7 @@ export default async function LocaleLayout({
   }
  
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${cormorant.variable} ${petitScript.variable}`}>
       <body>
         <NextIntlClientProvider><Header/>
           {children}</NextIntlClientProvider>
