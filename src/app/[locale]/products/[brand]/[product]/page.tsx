@@ -15,5 +15,5 @@ export async function generateMetadata({params}: {params: {locale: string}}): Pr
 }
   
   export default function Page() {
-    return <div>Brand's product page</div>;
+    return <div>Brand product page</div>;
   }
