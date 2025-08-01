@@ -37,7 +37,7 @@ const LanguageSwitcher = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute bg-white border rounded shadow-md top-full mt-2 z-10">
+        <div className="absolute  bg-white border rounded shadow-md top-full mt-2 z-10">
           {locales.map((lang) => (
             <Link
               key={lang.code}
