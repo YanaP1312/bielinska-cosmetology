@@ -8,13 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      screens: {
+        sm: '360px',  
+        md: '768px',  
+        lg: '1216px',
+      },
+      colors: {
+        primary: 'var(--color-primary)',
+        background: 'var(--color-background)',
+        text: 'var(--color-text)',
+        accent: 'var(--color-accent)',
+        additional: 'var(--color-additional)',
       },
       fontFamily: {
         accent: ['var(--font-petit)'],
+        dancing: ['var(--font-dancing)']
       },
     },
   },

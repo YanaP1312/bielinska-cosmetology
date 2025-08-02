@@ -24,29 +24,29 @@ const LanguageSwitcher = () => {
     <div className="relative">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="flex items-center  border border-transparent bg-transparent rounded-full"
+        className="flex items-center  border border-transparent bg-transparent rounded-full gap-0 hover-interaction hover:scale-105 md:gap-1"
       >
         <img
           src={currentLang.icon}
           alt={`Flag ${currentLang.label}`}
-          width={30}
-          height={30}
-          className="w-8 h-8 rounded-full object-cover"
+          width={15}
+          height={15}
+          className="w-8 h-8 rounded-full object-cover md:w-8 md:h-8 "
         />
-        <MdOutlineKeyboardArrowDown className="w-4 h-4" />
+        <MdOutlineKeyboardArrowDown className="w-4 h-4 fill-primary md:w-5 md:h-5" />
       </button>
 
       {isOpen && (
-        <div className="absolute  bg-white border rounded shadow-md top-full mt-2 z-10">
+        <div className="absolute top-full mt-3 z-10 min-w-[80px] bg-background border border-border rounded-xl shadow-lg md:mt-5 lg:min-w-[86px]">
           {locales.map((lang) => (
             <Link
               key={lang.code}
               href={i18nPath}
               locale={lang.code}
-              className="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 w-full text-left"
+              className="flex items-center gap-2 px-3 py-2 hover-interaction hover:scale-110 "
               onClick={() => setIsOpen(false)}
             >
-              <img src={lang.icon} alt={`Flag ${lang.label}`} width={20} height={20} className="w-8 h-8 rounded-full object-cover"/>
+              <img src={lang.icon} alt={`Flag ${lang.label}`} width={20} height={20} className="w-6 h-6 rounded-full object-cover  lg:w-8 lg:h-8"/>
               <span>{lang.label}</span>
             </Link>
           ))}

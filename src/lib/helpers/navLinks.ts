@@ -1,0 +1,1 @@
+export const navKeys = ['home', 'services', 'products', 'qualification'];

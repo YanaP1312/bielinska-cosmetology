@@ -3,16 +3,51 @@
 @tailwind utilities;
 
 :root {
+  --color-primary: #D4C0A8;
+  --color-background:#F9F8F6;
+  --color-text:  #1C1C1C;
+  --color-accent: #EEDCE3;
+  --color-additional: #6F4E6B;
+
   --font-cormorant: 'Cormorant Garamond', serif;
   --font-petit: 'Petit Formal Script', cursive;
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 
 }
 
-html {
-  font-family: var(--font-cormorant);
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-cormorant);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .layout-container {
+    @apply w-full mx-auto px-4 max-w-[360px] md:px-8 md:max-w-[768px] lg:max-w-[1216px];
+  }
+  .hover-interaction {
+    @apply transition-all ease-in-out duration-300;
+  }
+
 }
 
 

@@ -8,7 +8,7 @@ import "../globals.css"
 import {getTranslations} from 'next-intl/server';
 import Header from '@/components/Header/Header';
 
-import { Cormorant_Garamond, Petit_Formal_Script } from 'next/font/google';
+import { Cormorant_Garamond, Petit_Formal_Script, Dancing_Script} from 'next/font/google';
 
 const cormorant = Cormorant_Garamond({
   weight: ['400', '500', '700'],
@@ -21,6 +21,9 @@ const petitScript = Petit_Formal_Script({
   subsets: ['latin' ],
   variable: '--font-petit',
 });
+
+
+
 
 
 
@@ -60,7 +63,7 @@ export default async function LocaleLayout({
   }
  
   return (
-    <html lang={locale} className={`${cormorant.variable} ${petitScript.variable}`}>
+    <html lang={locale} className={`${cormorant.variable} ${petitScript.variable} `}>
       <body>
         <NextIntlClientProvider><Header/>
           {children}</NextIntlClientProvider>

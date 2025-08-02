@@ -1,5 +1,6 @@
 
 
+import { navKeys } from "@/lib/helpers/navLinks";
 import { getLocale, getTranslations } from "next-intl/server";
 import Link from "next/link"
 
@@ -11,15 +12,18 @@ export default async function Navigation() {
 
 
 
-    const links = [
-        { href: `/${locale}/`, label: t('home') },
-        { href: `/${locale}/services`, label: t('services') },
-        { href: `/${locale}/products`, label: t('products') },
-        { href: `/${locale}/qualifications`, label: t('qualification') }
-      ];
+    const links = navKeys.map((key) => ({
+      href: `/${locale}/${key === 'home' ? '' : key}`,
+      label: t(key),
+    }));
 
-return (<nav className="flex gap-4">{links.map(({href, label}) => (<Link key={label} href={href} className={"text-gray-600 hover:text-black transition-colors"}>{label}</Link>))}
-   
+return ( <nav className="flex gap-6">
+{links.map(({ href, label }) => (
+  <Link key={label} href={href} className="text-primary text-lg  tracking-wider  py-5 hover-interaction hover:text-additional hover:font-accent">
+    {label}
+  </Link>
+))}
 </nav>)
+
 }
 
