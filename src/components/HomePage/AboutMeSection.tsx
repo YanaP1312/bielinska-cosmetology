@@ -8,8 +8,8 @@ const AboutMeSection = async () => {
     return (<section className="layout-container my-6">
        
         <div className="pb-4">
-            <Image src="/images/about_me/TB2.png" alt="Tetiana Bielinska logo for title" width={300} height={80}/>
-            <h1 aria-label="Tetiana Bielinska - cosmetologist-esthetician" className="text-2xl tracking-wider font-extrabold italic flex justify-end pt-1">
+            <Image src="/images/about_me/TB2.png" alt="Tetiana Bielinska logo for title" width={300} height={198}/>
+            <h1 aria-label="Tetiana Bielinska - cosmetologist-esthetician" className="text-xl tracking-wider font-extrabold italic flex justify-end pt-1">
       &mdash;&nbsp;{t("home_page.profession")}
     </h1></div>
          
