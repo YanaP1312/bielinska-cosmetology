@@ -22,7 +22,6 @@ const config: Config = {
       },
       fontFamily: {
         accent: ['var(--font-petit)'],
-        dancing: ['var(--font-dancing)']
       },
     },
   },

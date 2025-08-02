@@ -19,7 +19,7 @@ export default async function Navigation() {
 
 return ( <nav className="flex gap-6">
 {links.map(({ href, label }) => (
-  <Link key={label} href={href} className="text-primary text-lg  tracking-wider  py-5 hover-interaction hover:text-additional hover:font-accent">
+  <Link key={label} href={href} className="text-primary text-lg  tracking-wider  py-5 hover-interaction hover:text-additional hover:italic">
     {label}
   </Link>
 ))}

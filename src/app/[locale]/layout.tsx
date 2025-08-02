@@ -8,7 +8,7 @@ import "../globals.css"
 import {getTranslations} from 'next-intl/server';
 import Header from '@/components/Header/Header';
 
-import { Cormorant_Garamond, Petit_Formal_Script, Dancing_Script} from 'next/font/google';
+import { Cormorant_Garamond, Petit_Formal_Script} from 'next/font/google';
 
 const cormorant = Cormorant_Garamond({
   weight: ['400', '500', '700'],
