@@ -1,13 +1,17 @@
 
+import AboutMeSection from '@/components/HomePage/AboutMeSection';
+import ProductsSection from '@/components/HomePage/ProductsSection';
 import {useTranslations} from 'next-intl';
 
  
 export default function HomePage() {
   const t = useTranslations('common');
   return (
-    <div>
-      <h1 className="font-serif text-lg">{t('home_page.title')}</h1>
+    <main>
+      <AboutMeSection/>
+      <ProductsSection/>
      
-    </div>
+     
+    </main>
   );
 }

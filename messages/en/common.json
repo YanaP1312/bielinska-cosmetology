@@ -7,9 +7,16 @@
     "brand_products": "Brand Products",
     "qualification": "Certification",
     "services": "Treatments",
-    "description": "Tetiana Bielinska is a certified esthetician in Bucharest, Romania, specializing in skincare, hardware-based and anti-aging treatments for face and body. Her services include combined and atraumatic facial cleansing, peels, oxygen therapy, microneedling, DMK enzyme therapy, Zemits microcurrent therapy, Soprano Titanium laser hair removal, and premium care procedures by DMK, Image, Eberlin, Cure Skin, Great Care, CEF, Smart4Derma. She also performs cocktail infusions using the innovative Plasonic device. Tatyana works exclusively with professional cosmetics from trusted global brands. Personalized approach to every client. Book a treatment and give your skin the glow it deserves."
+    "description": "Tetiana Bielinska is a certified cosmetologist-esthetician in Bucharest, Romania, specializing in skincare, hardware-based and anti-aging treatments for face and body. Her services include combined and atraumatic facial cleansing, peels, oxygen therapy, microneedling, DMK enzyme therapy, Zemits microcurrent therapy, Soprano Titanium laser hair removal, and premium care procedures by DMK, Image, Eberlin, Cure Skin, Great Care, CEF, Smart4Derma. She also performs cocktail infusions using the innovative Plasonic device. Tatyana works exclusively with professional cosmetics from trusted global brands. Personalized approach to every client. Book a treatment and give your skin the glow it deserves."
   },
   "home_page": {
-    "title": "Homepage"
+    "profession": "cosmetologist-esthetician"
+  },
+  "countries": {
+    "usa": "USA",
+    "ukraine": "Ukraine",
+    "israel": "Israel",
+    "switzerland": "Switzerland",
+    "mix": "Germany & Ukraine"
   }
 }

@@ -49,7 +49,7 @@ useEffect(() => {
         <div className="relative w-1/2 h-full bg-text shadow-lg flex flex-col justify-center items-center">
             <button onClick={onClose} aria-label="Close mobile menu" className="absolute top-6 right-4 hover-interaction hover:text-accent hover:scale-105">
             <TfiClose 
-  className="w-6 h-6 fill-additional"/>
+  className="w-6 h-6 fill-primary hover-interaction hover:fill-additional"/>
             </button>
             <nav className="flex flex-col gap-6">
 

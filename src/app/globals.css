@@ -14,6 +14,21 @@
 
 }
 
+/* :root {
+  --color-primary: #D4C0A8;
+  --color-background:#F9F8F6;
+  --color-text:  #1C1C1C;
+  --color-accent: oklch(81% 0.117 11.638);
+  --color-additional: oklch(51.4% 0.222 16.935);
+
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-petit: 'Petit Formal Script', cursive;
+
+} */
+
+
+
+
 
 @layer base {
   * {

@@ -10,6 +10,13 @@
     "description": "Tetiana Bielinska este cosmetolog estetician certificat în București, România. Este specializată în tratamente de îngrijire, anti-îmbătrânire și proceduri estetice cu aparatură pentru față și corp. Lista de servicii include curățarea combinată și atraumatică a tenului, peelinguri, terapie cu oxigen, microneedling, terapia enzimatică DMK, microcurenți Zemits, epilare definitivă cu laser Soprano Titanium, precum și tratamente premium de la branduri precum DMK, Image, Eberlin, Cure Skin, Great Care, CEF, Smart4Derma. Realizează introducerea activă a cocktailurilor cu aparatul inovator Plasonic. Tatiana folosește exclusiv produse cosmetice profesionale de la branduri de încredere. Abordare personalizată pentru fiecare client. Programează-te și oferă-i pielii tale strălucirea și sănătatea pe care le merită."    
   },
   "home_page": {
-    "title": "Pagina principală"
+    "profession": "cosmetolog-estetician"
+  },
+  "countries": {
+    "usa": "SUA",
+    "ukraine": "Ucraina",
+    "israel": "Israel",
+    "switzerland": "Elveția",
+    "mix": "Germania și Ucraina"
   }
 }
