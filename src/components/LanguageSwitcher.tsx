@@ -31,13 +31,13 @@ const LanguageSwitcher = () => {
           alt={`Flag ${currentLang.label}`}
           width={15}
           height={15}
-          className="w-8 h-8 rounded-full object-cover md:w-8 md:h-8 "
+          className="w-8 h-8 rounded-full object-cover lg:w-10 lg:h-10 "
         />
-        <MdOutlineKeyboardArrowDown className="w-4 h-4 fill-primary md:w-5 md:h-5" />
+        <MdOutlineKeyboardArrowDown className="w-4 h-4 fill-primary md:w-5 md:h-5 lg:w-7 lg:h-7" />
       </button>
 
       {isOpen && (
-        <div className="absolute top-full mt-4 z-10 min-w-[80px] bg-background border border-border rounded-xl shadow-lg md:mt-5 lg:min-w-[86px]">
+        <div className="absolute top-full mt-4 z-10 min-w-[80px] bg-background border border-border rounded-xl shadow-lg md:mt-5 lg:min-w-[100px] lg:mt-6 lg:px-2">
           {locales.map((lang) => (
             <Link
               key={lang.code}

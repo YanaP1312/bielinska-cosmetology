@@ -9,14 +9,25 @@
     "services": "Treatments",
     "description": "Tetiana Bielinska is a certified cosmetologist-esthetician in Bucharest, Romania, specializing in skincare, hardware-based and anti-aging treatments for face and body. Her services include combined and atraumatic facial cleansing, peels, oxygen therapy, microneedling, DMK enzyme therapy, Zemits microcurrent therapy, Soprano Titanium laser hair removal, and premium care procedures by DMK, Image, Eberlin, Cure Skin, Great Care, CEF, Smart4Derma. She also performs cocktail infusions using the innovative Plasonic device. Tatyana works exclusively with professional cosmetics from trusted global brands. Personalized approach to every client. Book a treatment and give your skin the glow it deserves."
   },
-  "home_page": {
-    "profession": "cosmetologist-esthetician"
-  },
   "countries": {
     "usa": "USA",
     "ukraine": "Ukraine",
     "israel": "Israel",
     "switzerland": "Switzerland",
     "mix": "Germany & Ukraine"
+  },
+  "home_page": {
+    "about_me": {
+      "title": "a cosmetologist and aesthetician, truly in love with her profession.",
+      "mission": "This is more than just work. It’s a journey toward beauty, health, and a sense of confidence — with sincere attention to your results.",
+      "intro": "Originally from sunny Odesa, Ukraine, I now live and work in beautiful Bucharest, Romania.",
+      "background": "My path in the world of beauty began over 20 years ago. Although I hold degrees in economics and medicine, with a specialization in obstetrics, it was cosmetology that became my true calling. In 2023, I officially qualified as a cosmetologist and have since continued to ",
+      "background_span": "learn and grow professionally.",
+      "education": "I’ve studied in both Ukrainian and Romanian cosmetology schools to deeply understand and compare techniques, absorb as much knowledge as possible, and apply the best of it in my practice. Ongoing education is a personal principle — I strive to provide my clients with ",
+      "education_span": "modern, effective, and safe treatments.",
+      "approach": "When you visit my studio, it’s never just a procedure. I carefully observe the unique qualities of your skin and the structure of your body to create a personalized plan that truly supports your goals.",
+      "closing": "I’ll be happy to welcome you and guide you into a space of thoughtful, high-quality, and gentle care."
+    }
   }
+  
 }

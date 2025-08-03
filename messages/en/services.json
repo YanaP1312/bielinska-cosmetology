@@ -1,1 +1,122 @@
-{}
+{
+    "face_care": {
+      "id": "block__face_care",
+      "title": "Facial Treatments",
+      "items": [
+        {
+          "id": "face__cleansing",
+          "name": "Facial Cleansing",
+          "type": [
+            { "id": "face__cleansing__atraumatic", "name": "Atraumatic / Device-Based Cleansing" },
+            { "id": "face__cleansing__combined", "name": "Combined Cleansing" }
+          ]
+        },
+        {
+          "id": "face__peelings",
+          "name": "Peels",
+          "type": [
+            { "id": "face__peelings__surface", "name": "Surface Peels" },
+            { "id": "face__peelings__median", "name": "Medium-Depth Peels" }
+          ]
+        },
+        {
+          "id": "face__cef",
+          "name": "CEF",
+          "type": [
+            {
+              "id": "face__cef__plasma",
+              "name": "Liquid Plasma",
+              "description": "Advanced rejuvenating system"
+            },
+            {
+              "id": "face__cef__oxygen",
+              "name": "Oxygen Therapy (O²XY System)"
+            }
+          ]
+        },
+        {
+          "id": "face__smart4derma",
+          "name": "Smart4Derma Enzym-Oxy System",
+          "type": [
+            { "id": "face__smart4derma__ferments", "name": "Ferment Therapy" },
+            { "id": "face__smart4derma__carboxy", "name": "Carboxy Therapy" }
+          ]
+        },
+        {
+          "id": "face__dmk",
+          "name": "DMK (Danne Montague-King)",
+          "type": [
+            {
+              "id": "face__dmk__ferments",
+              "name": "Ferment Therapy",
+              "subtypes": [
+                { "id": "face__dmk__ferments__01", "name": "#1" },
+                { "id": "face__dmk__ferments__02", "name": "#2" },
+                { "id": "face__dmk__ferments__03", "name": "#3" }
+              ]
+            },
+            {
+              "id": "face__dmk__revision",
+              "name": "Atraumatic Cleansing: Deep Skin Revision"
+            },
+            {
+              "id": "face__dmk__mother",
+              "name": "Event-Ready Treatment: Mother of the Bride"
+            },
+            {
+              "id": "face__dmk__quick_mask",
+              "name": "Quick Beauty Mask"
+            },
+            {
+              "id": "face__dmk__triple_mask",
+              "name": "Triple Facial Mask"
+            }
+          ]
+        },
+        {
+          "id": "face__microneedling",
+          "name": "Microneedling (Dr.Pen)",
+          "description": "With mesotherapy cocktails and exosomes"
+        }
+      ]
+    },
+    "body_care": {
+      "id": "block__body_care",
+      "title": "Body Treatments",
+      "items": [
+        {
+          "id": "body__multimasking",
+          "name": "Multimasking Wraps (Flow of Beauty)"
+        }
+      ]
+    },
+    "devices": {
+      "id": "block__devices",
+      "title": "Device-Based Treatments",
+      "items": [
+        {
+          "id": "devices__microcurrent",
+          "name": "Microcurrent Therapy (Zemits)"
+        },
+        {
+          "id": "devices__plasonic",
+          "name": "Plasonic",
+          "description": "Substance delivery via plasma (PlaPass) and ultrasound (SonoPass) in one system. Targets rejuvenation, pigmentation issues, problem skin, and boosts regeneration + hydration."
+        },
+        {
+          "id": "devices__stratosphere",
+          "name": "Stratosphere",
+          "description": "German device for body contouring and machine massage"
+        },
+        {
+          "id": "devices__pressotherapy",
+          "name": "Pressotherapy"
+        }
+      ]
+    },
+    "laser": {
+      "id": "block__laser",
+      "title": "Laser Hair Removal (Soprano Titanium)"
+    }
+  }
+  

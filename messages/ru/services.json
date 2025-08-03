@@ -1,1 +1,72 @@
-{}
+{ "face_care": {
+    "id": "block__face_care",
+      "title": "Уходовые процедуры для лица",
+      "items": [
+        {"id": "face__cleansing",
+          "name": "Чистка лица",
+          "type": [{"id": "face__cleansing__atraumatic", "name": "Атравматическая/аппаратная чистка"}, {"id": "face__cleansing__combined", "name": "Комбинированная чистка"}]
+        },
+        {"id": "face__peelings",
+          "name": "Пилинги",
+          "type": [{"id": "face__peelings__surface", "name": "Поверхностные пилинги"}, {"id": "face__peelings__median", "name": "Срединные пилинги"}]
+        },
+        {"id": "face__cef",
+          "name": "CEF",
+          "type": [{"id": "face__cef__plasma", "name": "Жидкая плазма", "description": "Глобальная омолаживающая система"}, {"id": "face__cef__oxygen", "name": "Кислородная терапия(O²XY System)"}]
+        },
+        { "id": "face__smart4derma",
+            "name": "Smart4Derma Enzym-oxy System",
+            "type": [{"id": "face__smart4derma__ferments", "name": "Ферментотерапия"}, {"id": "face__smart4derma__carboxy", "name": "Карбокситерапия"}]
+          },
+        {"id": "face__dmk",
+          "name": "DMK( Danne Montague-King)",
+          "type": [{"id": "face__dmk__ferments", "name": "Ферментотерапия", "subtypes": [
+            { "id": "face__dmk__ferments__01", "name": "#1" },
+            { "id": "face__dmk__ferments__02", "name": "#2" },
+            { "id": "face__dmk__ferments__03", "name": "#3" }
+          ] }, {"id": "face__dmk__revision", "name": "Атравматическая чистка: Глубокая ревизия кожи"},
+          {"id": "face__dmk__mother", "name": "Процедура на выход: Мать невесты"},
+         {"id": "face__dmk__quick_mask", "name": "Маска быстрой красоты"},
+         {"id": "face__dmk__triple_mask", "name": "Тройная маска лица"}]
+        },
+        {"id": "face__microneedling",
+          "name": "Микронидлинг (Dr.Pen)",
+          "description": "С мезотерапевтическими коктейлями,  экзосомами"
+        }
+      ]
+    },
+    "body_care": {
+        "id": "block__body_care",
+      "title": "Уходовые процедуры для тела",
+      "items": [
+        {"id": "body__multimasking",
+          "name": "Обёртывания Multimasking (Flow of Beauty)"
+        }
+      ]
+    },
+    "devices": {
+        "id": "block__devices",
+      "title": "Аппаратные процедуры",
+      "items": [
+        {"id": "devices__microcurrent",
+          "name": "Микротоковая терапия (Zemits)"
+        },
+        {"id": "devices__plasonic",
+          "name": "Plasonic",
+          "description": "Технология доставки веществ в кожу  с помощью плазмы (PlaPass) и ультразвука (SonoPass) в одной системе (омоложение, против пигментации, работа с проблемной кожи, мощная регенерация и увлажнение."
+},
+        {"id": "devices__stratosphere",
+          "name": "Stratosphere",
+          "description": "Немецкий аппарат для коррекции фигуры и аппаратного массажа"
+        },
+        {"id": "devices__pressotherapy",
+          "name": "Прессотерапия"
+        }
+      ]
+    },
+    "laser": {
+        "id": "block__laser",
+      "title": "Лазерная эпиляция(Soprano Titanium)"
+    }
+  }
+  

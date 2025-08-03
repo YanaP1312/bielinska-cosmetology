@@ -1,1 +1,119 @@
-{}
+{"face_care": {
+    "id": "block__face_care",
+    "title": "Доглядові процедури для обличчя",
+    "items": [
+      {
+        "id": "face__cleansing",
+        "name": "Очищення обличчя",
+        "type": [
+          { "id": "face__cleansing__atraumatic", "name": "Атравматичне / апаратне очищення" },
+          { "id": "face__cleansing__combined", "name": "Комбіноване очищення" }
+        ]
+      },
+      {
+        "id": "face__peelings",
+        "name": "Пілінги",
+        "type": [
+          { "id": "face__peelings__surface", "name": "Поверхневий пілінг" },
+          { "id": "face__peelings__median", "name": "Серединний пілінг" }
+        ]
+      },
+      {
+        "id": "face__cef",
+        "name": "CEF",
+        "type": [
+          {
+            "id": "face__cef__plasma",
+            "name": "Рідка плазма",
+            "description": "Глобальна омолоджувальна система"
+          },
+          {
+            "id": "face__cef__oxygen",
+            "name": "Киснева терапія (O²XY System)"
+          }
+        ]
+      },
+      {
+        "id": "face__smart4derma",
+        "name": "Smart4Derma Enzym-oxy System",
+        "type": [
+          { "id": "face__smart4derma__ferments", "name": "Ферментотерапія" },
+          { "id": "face__smart4derma__carboxy", "name": "Карбоксітерапія" }
+        ]
+      },
+      {
+        "id": "face__dmk",
+        "name": "DMK (Danne Montague-King)",
+        "type": [
+          {
+            "id": "face__dmk__ferments",
+            "name": "Ферментотерапія",
+            "subtypes": [
+              { "id": "face__dmk__ferments__01", "name": "#1" },
+              { "id": "face__dmk__ferments__02", "name": "#2" },
+              { "id": "face__dmk__ferments__03", "name": "#3" }
+            ]
+          },
+          {
+            "id": "face__dmk__revision",
+            "name": "Атравматичне очищення: Глибока ревізія шкіри"
+          },
+          {
+            "id": "face__dmk__mother",
+            "name": "Процедура на вихід: Мама нареченої"
+          },
+          {
+            "id": "face__dmk__quick_mask",
+            "name": "Маска швидкої краси"
+          },
+          {
+            "id": "face__dmk__triple_mask",
+            "name": "Потрійна маска обличчя"
+          }
+        ]
+      },
+      {
+        "id": "face__microneedling",
+        "name": "Мікронідлінг (Dr.Pen)",
+        "description": "З мезококтейлями та екзосомами"
+      }
+    ]
+  },
+  "body_care": {
+    "id": "block__body_care",
+    "title": "Доглядові процедури для тіла",
+    "items": [
+      {
+        "id": "body__multimasking",
+        "name": "Обгортання Multimasking (Flow of Beauty)"
+      }
+    ]
+  },
+  "devices": {
+    "id": "block__devices",
+    "title": "Апаратні процедури",
+    "items": [
+      {
+        "id": "devices__microcurrent",
+        "name": "Мікрострумова терапія (Zemits)"
+      },
+      {
+        "id": "devices__plasonic",
+        "name": "Plasonic",
+        "description": "Технологія доставки речовин у шкіру за допомогою плазми (PlaPass) та ультразвуку (SonoPass) в одній системі. Омолодження, боротьба з пігментацією, покращення регенерації та зволоження."
+      },
+      {
+        "id": "devices__stratosphere",
+        "name": "Stratosphere",
+        "description": "Німецький апарат для корекції фігури та апаратного масажу"
+      },
+      {
+        "id": "devices__pressotherapy",
+        "name": "Пресотерапія"
+      }
+    ]
+  },
+  "laser": {
+    "id": "block__laser",
+    "title": "Лазерна епіляція (Soprano Titanium)"
+  }}

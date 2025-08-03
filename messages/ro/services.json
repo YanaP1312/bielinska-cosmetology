@@ -1,1 +1,83 @@
-{}
+{    "face_care": {
+    "id": "block__face_care",
+    "title": "Tratamente faciale",
+    "items": [
+      {
+        "id": "face__cleansing",
+        "name": "Curățarea feței",
+        "type": [
+          { "id": "face__cleansing__atraumatic", "name": "Curățare atraumatică/aparată" },
+          { "id": "face__cleansing__combined", "name": "Curățare combinată" }
+        ]
+      },
+      {
+        "id": "face__peelings",
+        "name": "Peelinguri",
+        "type": [
+          { "id": "face__peelings__surface", "name": "Peeling superficial" },
+          { "id": "face__peelings__median", "name": "Peeling mediu" }
+        ]
+      },
+      {
+        "id": "face__cef",
+        "name": "CEF",
+        "type": [
+          { "id": "face__cef__plasma", "name": "Plasmă lichidă", "description": "Sistem global de întinerire" },
+          { "id": "face__cef__oxygen", "name": "Terapia cu oxigen (O²XY System)" }
+        ]
+      },
+      {
+        "id": "face__smart4derma",
+        "name": "Smart4Derma Enzym-oxy System",
+        "type": [
+          { "id": "face__smart4derma__ferments", "name": "Terapie enzimatică" },
+          { "id": "face__smart4derma__carboxy", "name": "Carboxiterapie" }
+        ]
+      },
+      {
+        "id": "face__dmk",
+        "name": "DMK (Danne Montague-King)",
+        "type": [
+          {
+            "id": "face__dmk__ferments",
+            "name": "Terapie enzimatică",
+            "subtypes": [
+              { "id": "face__dmk__ferments__01", "name": "#1" },
+              { "id": "face__dmk__ferments__02", "name": "#2" },
+              { "id": "face__dmk__ferments__03", "name": "#3" }
+            ]
+          },
+          { "id": "face__dmk__revision", "name": "Revizie profundă a pielii" },
+          { "id": "face__dmk__mother", "name": "Procedură specială: Mama miresei" },
+          { "id": "face__dmk__quick_mask", "name": "Masca frumuseții rapide" },
+          { "id": "face__dmk__triple_mask", "name": "Masca facială triplu efect" }
+        ]
+      },
+      {
+        "id": "face__microneedling",
+        "name": "Microneedling (Dr.Pen)",
+        "description": "Cu cocktailuri mezoterapeutice și exozomi"
+      }
+    ]
+  },
+  "body_care": {
+    "id": "block__body_care",
+    "title": "Tratamente corporale",
+    "items": [
+      { "id": "body__multimasking", "name": "Împachetări Multimasking (Flow of Beauty)" }
+    ]
+  },
+  "devices": {
+    "id": "block__devices",
+    "title": "Tratamente cu aparate",
+    "items": [
+      { "id": "devices__microcurrent", "name": "Terapie cu microcurenți (Zemits)" },
+      { "id": "devices__plasonic", "name": "Plasonic", "description": "Sistem combinat cu plasmă (PlaPass) și ultrasunete (SonoPass) pentru regenerare, hidratare, anti-pigmentare și tratamente anti-aging." },
+      { "id": "devices__stratosphere", "name": "Stratosphere", "description": "Aparat german pentru remodelare corporală și masaj" },
+      { "id": "devices__pressotherapy", "name": "Presoterapie" }
+    ]
+  },
+  "laser": {
+    "id": "block__laser",
+    "title": "Epilare cu laser (Soprano Titanium)"
+  }}

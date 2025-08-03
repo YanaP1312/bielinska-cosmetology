@@ -62,7 +62,7 @@ useEffect(() => {
           <Link
             key={label}
             href={href}
-            className={`text-xl text-center tracking-wider font-medium ${isActive ? "text-additional   text-3xl italic" : "text-primary"} hover-interaction hover:text-additional`}
+            className={`text-xl text-center tracking-wider font-medium ${isActive ? "text-additional   text-5xl font-vibes" : "text-primary"} hover-interaction hover:text-additional`}
             onClick={onClose}
           >
             {label}

@@ -7,27 +7,11 @@
   --color-background:#F9F8F6;
   --color-text:  #1C1C1C;
   --color-accent: #EEDCE3;
-  --color-additional: #6F4E6B;
+  --color-additional: #8f5989;
 
-  --font-cormorant: 'Cormorant Garamond', serif;
-  --font-petit: 'Petit Formal Script', cursive;
+
 
 }
-
-/* :root {
-  --color-primary: #D4C0A8;
-  --color-background:#F9F8F6;
-  --color-text:  #1C1C1C;
-  --color-accent: oklch(81% 0.117 11.638);
-  --color-additional: oklch(51.4% 0.222 16.935);
-
-  --font-cormorant: 'Cormorant Garamond', serif;
-  --font-petit: 'Petit Formal Script', cursive;
-
-} */
-
-
-
 
 
 @layer base {
@@ -41,14 +25,9 @@
     background-color: var(--color-background);
     color: var(--color-text);
     font-family: var(--font-cormorant);
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
 
   .no-scroll {
     overflow: hidden;
@@ -62,6 +41,8 @@
   .hover-interaction {
     @apply transition-all ease-in-out duration-300;
   }
+
+ .common-accent {@apply font-vibes text-additional tracking-wider text-xl lg:text-2xl}
 
 }
 

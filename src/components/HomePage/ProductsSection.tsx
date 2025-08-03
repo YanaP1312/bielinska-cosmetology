@@ -7,7 +7,7 @@ const ProductsSection = async () => {
     const t = await getTranslations("common.metadata")
 
     return <section className="layout-container">
-        <h2 className="text-additional text-center text-4xl font-bold">{t("products")}</h2>
+        <h2 className="text-additional text-center text-4xl font-bold font-vibes tracking-widest">{t("products")}</h2>
         <BrandsList/>
         <Link href={"/products"}>{t("products")}&nbsp; <RiArrowRightWideLine /></Link>
     </section>

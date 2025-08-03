@@ -9,14 +9,25 @@
     "services": "Proceduri",
     "description": "Tetiana Bielinska este cosmetolog estetician certificat în București, România. Este specializată în tratamente de îngrijire, anti-îmbătrânire și proceduri estetice cu aparatură pentru față și corp. Lista de servicii include curățarea combinată și atraumatică a tenului, peelinguri, terapie cu oxigen, microneedling, terapia enzimatică DMK, microcurenți Zemits, epilare definitivă cu laser Soprano Titanium, precum și tratamente premium de la branduri precum DMK, Image, Eberlin, Cure Skin, Great Care, CEF, Smart4Derma. Realizează introducerea activă a cocktailurilor cu aparatul inovator Plasonic. Tatiana folosește exclusiv produse cosmetice profesionale de la branduri de încredere. Abordare personalizată pentru fiecare client. Programează-te și oferă-i pielii tale strălucirea și sănătatea pe care le merită."    
   },
-  "home_page": {
-    "profession": "cosmetolog-estetician"
-  },
   "countries": {
     "usa": "SUA",
     "ukraine": "Ucraina",
     "israel": "Israel",
     "switzerland": "Elveția",
     "mix": "Germania și Ucraina"
+  },
+  "home_page": {
+    "about_me": {
+      "title": "cosmetician estetician, îndrăgostită de meseria sa.",
+      "mission": "Este mai mult decât o muncă. Este un drum spre frumusețe, sănătate și încredere — cu atenție sinceră față de rezultatul obținut.",
+      "intro": "Originară din însorita Odesa, locuiesc și lucrez în frumosul București, România.",
+      "background": "Parcursul meu în domeniul frumuseții a început acum peste 20 de ani. Deși am o pregătire în economie și medicină, cu specializarea în obstetrică, cosmetologia a devenit adevărata mea vocație. În 2023 am obținut calificarea oficială de cosmetician și de atunci ",
+      "background_span": "continuu să învăț și să mă perfecționez.",
+      "education": "Am studiat în școli de cosmetologie din Ucraina și România pentru a înțelege profund diferite metode, a absorbi cât mai multe cunoștințe și a aplica cele mai bune practici în cabinet. Perfecționarea continuă este un principiu de bază pentru mine, pentru că îmi doresc să ofer clientelor ",
+      "education_span": "tratamente moderne, eficiente și sigure.",
+      "approach": "Atunci când veniți în cabinetul meu, nu aplic pur și simplu o procedură. Studiez cu atenție particularitățile pielii feței și structura corpului pentru a crea un plan personalizat care să ajute cu adevărat la obținerea rezultatului dorit.",
+      "closing": "Vă aștept cu drag în cabinetul meu și sper să fiu ghidul dumneavoastră către un univers al îngrijirii de calitate, echilibrate și blânde."
+    }
   }
+  
 }

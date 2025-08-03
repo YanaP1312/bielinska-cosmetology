@@ -15,7 +15,7 @@ const Header = () => {
         <div className="layout-container flex items-center justify-between">
             <Link href='/' aria-label="Go to homepage">
               
-            <Image src="/images/logo.png" alt="Tetiana Bielinska logo" width={50} height={50} className="hover-interaction hover:scale-105"/></Link>
+            <Image src="/images/logo.png" alt="Tetiana Bielinska logo" width={50} height={50} className="hover-interaction hover:scale-105 lg:w-max"/></Link>
            <div className="hidden md:flex">
         <Navigation/>
         </div>

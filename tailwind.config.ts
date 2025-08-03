@@ -21,7 +21,7 @@ const config: Config = {
         additional: 'var(--color-additional)',
       },
       fontFamily: {
-        accent: ['var(--font-petit)'],
+        vibes: ['var(--font-vibes)', 'cursive'],
       },
     },
   },

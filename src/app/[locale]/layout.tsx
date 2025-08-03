@@ -8,7 +8,8 @@ import "../globals.css"
 import {getTranslations} from 'next-intl/server';
 import Header from '@/components/Header/Header';
 
-import { Cormorant_Garamond, Petit_Formal_Script} from 'next/font/google';
+import { Cormorant_Garamond} from 'next/font/google';
+import { greatVibes } from '@/fonts/fonts';
 
 const cormorant = Cormorant_Garamond({
   weight: ['400', '500', '700'],
@@ -16,11 +17,9 @@ const cormorant = Cormorant_Garamond({
   variable: '--font-cormorant',
 });
 
-const petitScript = Petit_Formal_Script({
-  weight: '400',
-  subsets: ['latin' ],
-  variable: '--font-petit',
-});
+
+
+
 
 
 
@@ -45,6 +44,7 @@ export async function generateMetadata({params}: {params: {locale: string}}): Pr
     icons: {
       icon: '/favicon.ico',
     },
+
   };
 }
 
@@ -63,7 +63,7 @@ export default async function LocaleLayout({
   }
  
   return (
-    <html lang={locale} className={`${cormorant.variable} ${petitScript.variable} `}>
+    <html lang={locale} className={`${cormorant.variable} ${greatVibes.variable} `}>
       <body>
         <NextIntlClientProvider><Header/>
           {children}</NextIntlClientProvider>
