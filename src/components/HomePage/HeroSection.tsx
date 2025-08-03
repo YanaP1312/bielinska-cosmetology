@@ -13,7 +13,7 @@ const HeroSection = async () => {
             <h1 aria-label="Tetiana Bielinska - cosmetologist-esthetician" className="text-xl tracking-wider text-right mb-10 lg:text-3xl lg:max-w-[440px] lg:ml-auto">
       &mdash;&nbsp;{t("title")}
     </h1>
-    <p className="font-vibes text-3xl tracking-widest font-medium text-center md:text-2xl lg:text-4xl">"{t("mission")}"</p>
+    <p className="font-vibes text-3xl tracking-widest font-medium text-center md:text-2xl lg:text-4xl">&quot;{t("mission")}&quot;</p>
     </div>
     <Image src="/images/about_me/TV.jpg" alt="Tetiana Bielinska foto" width={328} height={491} className="border border-primary rounded-2xl w-max"/> 
          
