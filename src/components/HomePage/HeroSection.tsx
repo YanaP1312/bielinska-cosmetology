@@ -6,10 +6,10 @@ const HeroSection = async () => {
 
     const t = await getTranslations("common.home_page.about_me")
 
-    return (<section className="layout-container my-10 lg:my-14">
+    return (<section className="layout-container section-m">
        <div className=" grid grid-cols-1 gap-10 mb-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr] lg:mb-14">
         <div className="md:pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:px-4" >
-            <Image src="/images/about_me/TB2.png" alt="Tetiana Bielinska logo for title" width={328} height={216} className="mb-2 w-max lg:mb-4"/>
+            <Image src="/images/about_me/TB2.png" alt="Tetiana Bielinska logo for title" width={328} height={216} className="mb-2 lg:mb-4"/>
             <h1 aria-label="Tetiana Bielinska - cosmetologist-esthetician" className="text-xl tracking-wider text-right mb-10 lg:text-3xl lg:max-w-[440px] lg:ml-auto">
       &mdash;&nbsp;{t("title")}
     </h1>

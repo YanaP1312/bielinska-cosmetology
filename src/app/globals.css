@@ -14,6 +14,18 @@
 }
 
 
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-720%);
+  }
+}
+
+
+
+
 @layer base {
   * {
     margin: 0;
@@ -32,6 +44,12 @@
   .no-scroll {
     overflow: hidden;
   }
+
+  .animate-marquee {
+    display: flex;
+    animation: marquee 120s linear infinite;
+  }
+  
 }
 
 @layer components {
@@ -42,7 +60,11 @@
     @apply transition-all ease-in-out duration-300;
   }
 
+
  .common-accent {@apply font-vibes text-additional tracking-wider text-xl lg:text-2xl}
+
+ .section-m{@apply my-10 lg:my-14}
+ .section-title{@apply text-center text-4xl text-primary font-vibes tracking-wider mb-10 md:text-5xl }
 
 }
 

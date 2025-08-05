@@ -1,4 +1,5 @@
 
+import BrandsList from '@/components/HomePage/BrandsList';
 import type {Metadata} from 'next';
 
 
@@ -15,5 +16,5 @@ export async function generateMetadata({params}: {params: {locale: string}}): Pr
 }
 
 export default function Page() {
-    return <div>Products page</div>;
+    return <main className='layout-container my-10 md:my-14'><BrandsList/></main>;
   }
