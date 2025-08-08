@@ -1,11 +1,32 @@
 'use client';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useBookingForm } from '@/lib/helpers/useBookingForm';
 import Modal from './Modal';
 import { useEffect } from 'react';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+import { registerLocale } from 'react-datepicker';
+import {uk, enUS, ro, ru} from 'date-fns/locale'; 
+import type { Locale } from 'date-fns';
+
+
+
+
 
 export default function AppointmentForm() {
   const t = useTranslations('common.home_page.form');
+  const locale = useLocale();
+  const localeMap: Record<string, Locale> = {
+    uk: uk,
+    en: enUS,
+    ro: ro,
+  ru: ru,
+  };
+  const currentLocale = useLocale();
+  const dateFnsLocale = localeMap[currentLocale] || uk;
+  
+  registerLocale(currentLocale, dateFnsLocale);
+
   const serviceList = t.raw('services') as string[];
   const {
     form,
@@ -15,6 +36,7 @@ export default function AppointmentForm() {
     handleChange,
     handleSubmit,
     setSuccess,
+    setForm
   } = useBookingForm(t);
 
   useEffect(() => {
@@ -82,6 +104,27 @@ export default function AppointmentForm() {
             ))}
           </div>
           {errors.services && <p className="text-red-600 text-sm mt-1">{errors.services}</p>}
+        </div>
+
+        <div>
+        <label className="block mb-2">{t('date')}</label>
+<DatePicker
+name="date"
+  selected={form.date ? new Date(form.date) : null}
+  onChange={(date: Date | null) => {
+    setForm((prev: typeof form) => ({
+      ...prev,
+      date: date ? date.toISOString().split('T')[0] : '',
+    }));
+  }}
+  locale={currentLocale}
+  minDate={new Date()}
+  dateFormat="yyyy-MM-dd"
+  placeholderText={t('date')}
+  className="w-full p-2 border rounded"
+/>
+{errors.date && <p className="text-red-600 text-sm mt-1">{errors.date}</p>}
+
         </div>
 
         <div>

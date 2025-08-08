@@ -18,5 +18,14 @@ export function createBookingSchema(t: (key: string) => string) {
   ),
     services: z.array(z.string()).min(1, { message: t('services_required') }),
     message: z.string().optional(),
-  });
+    date: z
+  .string()
+  .trim()
+  .refine(val => /^\d{4}-\d{2}-\d{2}$/.test(val), {
+    message: t('date_invalid'),
+  }),
+  },
+  
+  
+  );
 }

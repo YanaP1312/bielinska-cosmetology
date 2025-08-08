@@ -4,6 +4,7 @@ export interface BookingFormData {
     email?: string;
     services: string[];
     message?: string;
+    date: string,
   }
 
 export interface AppointmentFormProps {

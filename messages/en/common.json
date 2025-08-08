@@ -30,36 +30,40 @@
     },
     "marquee": {
       "titles": "Facial care treatments • Body care treatments • Device-based treatments • Laser hair removal (Soprano Titanium) • Facial care treatments • Body care treatments • Device-based treatments • Laser hair removal (Soprano Titanium)",
-      "items": "Atraumatic / device-assisted facial cleansing • Combined facial cleansing • Peelings • CEF • Smart4Derma Enzym-oxy System • DMK (Danne Montague-King) • Microneedling (Dr.Pen) • Multimasking wrap (Flow of Beauty) • Microcurrent therapy (Zemits) • Plasonic • Stratosphere • Pressotherapy"}
-},
-"form": {
-  "name": "Your Name",
-  "phone": "Phone Number",
-  "email": "Email (optional)",
-  "selectServices": "Select Service(s)",
-  "message": "Additional Preferences",
-  "submit": "Submit",
-  "sending": "Sending...",
-  "successMessage": "Preliminary appointment submitted. I will contact you shortly to confirm the details and schedule the time.",
-  "thankYou": "Thank you",
-  "services": [
-    "Atraumatic / Hardware Facial Cleansing",
-    "Combined Facial Cleansing",
-    "Peeling",
-    "CEF",
-    "Smart4Derma Enzym-oxy System",
-    "DMK (Danne Montague-King)",
-    "Microneedling (Dr.Pen)",
-    "Laser Hair Removal",
-    "Multimasking Wrap (Flow of Beauty)",
-    "Microcurrent Therapy (Zemits)",
-    "Plasonic",
-    "Stratosphere",
-    "Pressotherapy"
-  ], "name_required": "Name is required",
-  "phone_required": "Phone is required",
-  "email_invalid": "Invalid email",
-  "services_required": "Select at least one service",
-  "phone_invalid": "Please enter a valid phone number"
+      "items": "Atraumatic / device-assisted facial cleansing • Combined facial cleansing • Peelings • CEF • Smart4Derma Enzym-oxy System • DMK (Danne Montague-King) • Microneedling (Dr.Pen) • Multimasking wrap (Flow of Beauty) • Microcurrent therapy (Zemits) • Plasonic • Stratosphere • Pressotherapy"},
+      "form": {
+        "name": "Your Name",
+        "phone": "Phone Number",
+        "email": "Email (optional)",
+        "selectServices": "Select Service(s)",
+        "date": "Preferred date",
+        "message": "Additional Preferences",
+        "submit": "Submit",
+        "sending": "Sending...",
+        "successMessage": "Preliminary appointment submitted. I will contact you shortly to confirm the details and schedule the time.",
+        "thankYou": "Thank you",
+        "services": [
+          "Atraumatic / Hardware Facial Cleansing",
+          "Combined Facial Cleansing",
+          "Peeling",
+          "CEF",
+          "Smart4Derma Enzym-oxy System",
+          "DMK (Danne Montague-King)",
+          "Microneedling (Dr.Pen)",
+          "Laser Hair Removal",
+          "Multimasking Wrap (Flow of Beauty)",
+          "Microcurrent Therapy (Zemits)",
+          "Plasonic",
+          "Stratosphere",
+          "Pressotherapy"
+        ], "name_required": "Name is required",
+        "phone_required": "Phone is required",
+        "email_invalid": "Invalid email",
+        "date_invalid": "Please select a valid date",
+        "services_required": "Select at least one service",
+        "phone_invalid": "Please enter a valid phone number"
+      }
+
 }
+
 }

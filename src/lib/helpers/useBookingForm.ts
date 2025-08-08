@@ -10,6 +10,7 @@ export function useBookingForm(t: ReturnType<typeof import('next-intl').useTrans
     email: '',
     services: [] as string[],
     message: '',
+    date: '',
   });
 
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -67,7 +68,7 @@ export function useBookingForm(t: ReturnType<typeof import('next-intl').useTrans
 
     if (result.success) {
       setSuccess(true);
-      setForm({ name: '', phone: '', email: '', services: [], message: '' });
+      setForm({ name: '', phone: '', email: '', services: [], message: '', date: "" });
       setErrors({});
     } else {
       setErrors(result.error ?? {});
@@ -84,5 +85,6 @@ export function useBookingForm(t: ReturnType<typeof import('next-intl').useTrans
     handleChange,
     handleSubmit,
     setSuccess,
+    setForm
   };
 }

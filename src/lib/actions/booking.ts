@@ -15,6 +15,7 @@ export async function submitBooking(formData: FormData) {
     email: formData.get('email'),
     services: formData.getAll('services'),
     message: formData.get('message'),
+    date: formData.get('date')
   };
 
   const parsed = schema.safeParse(raw);
@@ -34,7 +35,7 @@ export async function submitBooking(formData: FormData) {
     return { success: false, error: formattedErrors };
   }
   
-  const { name, phone, email, services, message } = parsed.data;
+  const { name, phone, email, services, message,date } = parsed.data;
 
   // Telegram
   const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN!;
@@ -44,6 +45,7 @@ export async function submitBooking(formData: FormData) {
 👤 Имя: ${name}
 📞 Телефон: ${phone}
 ${email ? `📧 Email: ${email}` : ''}
+📅 Дата: ${date}
 💆 Услуги: ${services.join(', ')}
 ${message ? `💬 Комментарий: ${message}` : ''}
   `;
@@ -70,6 +72,7 @@ ${message ? `💬 Комментарий: ${message}` : ''}
     <p><strong>Телефон:</strong> ${phone}</p>
     ${email ? `<p><strong>Email:</strong> ${email}</p>` : ''}
     <p><strong>Услуги:</strong> ${services.join(', ')}</p>
+    <p><strong>Дата:</strong> ${date}</p>
     ${message ? `<p><strong>Комментарий:</strong> ${message}</p>` : ''}
   `;
 

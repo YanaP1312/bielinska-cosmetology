@@ -39,6 +39,7 @@
       "selectServices": "Selectați serviciul/serviciile",
       "message": "Preferințe suplimentare",
       "submit": "Trimite",
+      "date": "Data dorită",
       "sending": "Se trimite...",
       "successMessage": "Programarea preliminară a fost înregistrată. Vă voi contacta în curând pentru a confirma detaliile și ora.",
       "thankYou": "Mulțumesc",
@@ -60,6 +61,7 @@
       "name_required": "Numele este obligatoriu",
   "phone_required": "Telefonul este obligatoriu",
   "email_invalid": "Email invalid",
+  "date_invalid": "Vă rugăm să selectați o dată validă",
   "services_required": "Selectați cel puțin un serviciu",
   "phone_invalid": "Vă rugăm să introduceți un număr de telefon valid"
     }
