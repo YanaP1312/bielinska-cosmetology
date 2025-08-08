@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import MarqueeServer from "./MarqueeServer";
+import ServicesList from "./ServicesList";
 
 const ServicesSection = async () => {
 const t = await getTranslations("common")
@@ -9,6 +10,7 @@ const t = await getTranslations("common")
         <div className="layout-container">
         <h2 className="section-title mb-10 lg:mb-14">{t("metadata.services")}
         </h2>
+        <ServicesList/>
         </div>
     </section>
 }

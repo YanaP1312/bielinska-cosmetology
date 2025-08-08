@@ -31,7 +31,39 @@
     "marquee": {
       "titles": "Proceduri de îngrijire pentru față   •   Proceduri de îngrijire pentru corp   •   Proceduri cu aparate   •   Epilare cu laser (Soprano Titanium) • Proceduri de îngrijire pentru față   •   Proceduri de îngrijire pentru corp   •   Proceduri cu aparate   •   Epilare cu laser (Soprano Titanium)",
       "items": "Curățare facială atraumatică / cu aparat   •   Curățare facială combinată   •   Peelinguri   •   CEF   •   Sistem Smart4Derma Enzym-oxy   •   DMK (Danne Montague-King)   •   Microneedling (Dr.Pen)   •   Împachetări Multimasking (Flow of Beauty)   •   Terapie cu microcurenți (Zemits)   •   Plasonic   •   Stratosphere   •   Presoterapie"
+    },
+    "form": {
+      "name": "Numele dvs.",
+      "phone": "Număr de telefon",
+      "email": "Email (opțional)",
+      "selectServices": "Selectați serviciul/serviciile",
+      "message": "Preferințe suplimentare",
+      "submit": "Trimite",
+      "sending": "Se trimite...",
+      "successMessage": "Programarea preliminară a fost înregistrată. Vă voi contacta în curând pentru a confirma detaliile și ora.",
+      "thankYou": "Mulțumesc",
+      "services": [
+        "Curățare facială atraumatică / cu aparate",
+        "Curățare facială combinată",
+        "Peeling",
+        "CEF",
+        "Smart4Derma Enzym-oxy System",
+        "DMK (Danne Montague-King)",
+        "Microneedling (Dr.Pen)",
+        "Epilare cu laser",
+        "Împachetare Multimasking (Flow of Beauty)",
+        "Terapie cu microcurenți (Zemits)",
+        "Plasonic",
+        "Stratosphere",
+        "Presoterapie"
+      ],
+      "name_required": "Numele este obligatoriu",
+  "phone_required": "Telefonul este obligatoriu",
+  "email_invalid": "Email invalid",
+  "services_required": "Selectați cel puțin un serviciu",
+  "phone_invalid": "Vă rugăm să introduceți un număr de telefon valid"
     }
+
   }
   
 }

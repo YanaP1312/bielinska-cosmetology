@@ -1,6 +1,7 @@
 {    "face_care": {
     "id": "block__face_care",
     "title": "Tratamente faciale",
+    "description": "Un set de proceduri pentru refacerea și susținerea pielii în caz de ton tern, uscăciune, textură afectată, acnee sau schimbări legate de vârstă. Se selectează în funcție de starea pielii — de la curățarea de bază la protocoale DMK și biostimulare.",
     "items": [
       {
         "id": "face__cleansing",
@@ -40,12 +41,7 @@
         "type": [
           {
             "id": "face__dmk__ferments",
-            "name": "Terapie enzimatică",
-            "subtypes": [
-              { "id": "face__dmk__ferments__01", "name": "#1" },
-              { "id": "face__dmk__ferments__02", "name": "#2" },
-              { "id": "face__dmk__ferments__03", "name": "#3" }
-            ]
+            "name": "Terapie enzimatică #1, #2, #3"
           },
           { "id": "face__dmk__revision", "name": "Revizie profundă a pielii" },
           { "id": "face__dmk__mother", "name": "Procedură specială: Mama miresei" },
@@ -63,6 +59,7 @@
   "body_care": {
     "id": "block__body_care",
     "title": "Tratamente corporale",
+    "description": "Procedură potrivită pentru cei care doresc un efect vizibil după o singură ședință: piele mai fină, reducerea retenției și senzație generală de ușurare. Recomandată în caz de tonus scăzut, procese stagnante locale și lipsă de hidratare.",
     "items": [
       { "id": "body__multimasking", "name": "Împachetări Multimasking (Flow of Beauty)" }
     ]
@@ -70,6 +67,7 @@
   "devices": {
     "id": "block__devices",
     "title": "Tratamente cu aparate",
+    "description": "Metode de corecție estetică și regenerare prin tehnologie. Plasonic — livrarea substanțelor active în piele prin plasmă (PlaPass) și ultrasunete (SonoPass): efect anti-age, tratamente pentru pielea problematică și pigmenți, regenerare profundă și hidratare. Stratosphere — aparat german pentru remodelare corporală și masaj. Indicate în caz de elasticitate scăzută, textură afectată, retenție și modificări legate de vârstă. Se aleg în funcție de obiectiv (lifting, drenaj limfatic, hidratare).",
     "items": [
       { "id": "devices__microcurrent", "name": "Terapie cu microcurenți (Zemits)" },
       { "id": "devices__plasonic", "name": "Plasonic", "description": "Sistem combinat cu plasmă (PlaPass) și ultrasunete (SonoPass) pentru regenerare, hidratare, anti-pigmentare și tratamente anti-aging." },
@@ -79,5 +77,6 @@
   },
   "laser": {
     "id": "block__laser",
-    "title": "Epilare cu laser (Soprano Titanium)"
+    "title": "Epilare cu laser (Soprano Titanium)",
+    "description": "Epilare sigură și confortabilă cu Soprano Titanium — o soluție rapidă și delicată pentru îndepărtarea părului nedorit. Potrivită pentru toate fototipurile, inclusiv pielea sensibilă și zona feței."
   }}

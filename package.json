@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.5.11",
+    "@hookform/resolvers": "^5.2.1",
+    "next": "^15.4.6",
     "next-intl": "^4.3.4",
+    "nodemailer": "^7.0.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.5.0"
+    "react-hook-form": "^7.62.0",
+    "react-icons": "^5.5.0",
+    "zod": "^4.0.15"
   },
   "devDependencies": {
     "@types/node": "^20",

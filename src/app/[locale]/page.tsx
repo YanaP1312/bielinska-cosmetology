@@ -1,4 +1,5 @@
 
+import AppointmentForm from '@/components/AppointmentForm';
 import HeroSection from '@/components/HomePage/HeroSection';
 import ProductsSection from '@/components/HomePage/ProductsSection';
 import ServicesSection from '@/components/HomePage/ServicesSection';
@@ -12,6 +13,7 @@ export default function HomePage() {
       <HeroSection/>
       <ServicesSection/>
       <ProductsSection/>
+      <AppointmentForm/>
      
     </main>
   );

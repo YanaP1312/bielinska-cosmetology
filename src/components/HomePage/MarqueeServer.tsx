@@ -22,6 +22,8 @@ export default async function MarqueeServer() {
       </div>
    
     </div>
+
+   
   );
 }
 

@@ -2,6 +2,7 @@
     "face_care": {
       "id": "block__face_care",
       "title": "Facial Treatments",
+      "description": "A set of treatments aimed at restoring and maintaining the skin when facing dull tone, dryness, uneven texture, acne or age-related changes. Selected based on skin condition — from basic cleansing to DMK revision protocols and biostimulation.",
       "items": [
         {
           "id": "face__cleansing",
@@ -48,12 +49,7 @@
           "type": [
             {
               "id": "face__dmk__ferments",
-              "name": "Ferment Therapy",
-              "subtypes": [
-                { "id": "face__dmk__ferments__01", "name": "#1" },
-                { "id": "face__dmk__ferments__02", "name": "#2" },
-                { "id": "face__dmk__ferments__03", "name": "#3" }
-              ]
+              "name": "Ferment Therapy #1, #2, #3"
             },
             {
               "id": "face__dmk__revision",
@@ -83,6 +79,7 @@
     "body_care": {
       "id": "block__body_care",
       "title": "Body Treatments",
+      "description": "A procedure for those seeking a visible effect after one session: smoother skin texture, reduced puffiness and an overall sense of lightness. Recommended for decreased tone, local stagnation and hydration deficits.",
       "items": [
         {
           "id": "body__multimasking",
@@ -93,6 +90,7 @@
     "devices": {
       "id": "block__devices",
       "title": "Device-Based Treatments",
+      "description": "Methods for aesthetic correction and regeneration through advanced technology. Plasonic — active substance delivery via plasma (PlaPass) and ultrasound (SonoPass): rejuvenation, support for problematic skin and pigmentation, deep hydration and renewal. Stratosphere — German device for body sculpting and massage. Recommended in cases of reduced elasticity, skin texture issues, puffiness and age-related changes. Selected according to goals (lifting, lymphatic drainage, texture, hydration).",
       "items": [
         {
           "id": "devices__microcurrent",
@@ -116,7 +114,8 @@
     },
     "laser": {
       "id": "block__laser",
-      "title": "Laser Hair Removal (Soprano Titanium)"
+      "title": "Laser Hair Removal (Soprano Titanium)",
+      "description": "Safe and comfortable Soprano Titanium laser hair removal — a fast and gentle solution for unwanted hair. Ideal for all skin phototypes, including sensitive skin and facial areas."
     }
   }
   
