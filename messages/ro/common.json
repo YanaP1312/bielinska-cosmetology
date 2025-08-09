@@ -16,6 +16,10 @@
     "switzerland": "Elveția",
     "mix": "Germania și Ucraina"
   },
+  "dev": {
+    "not_found": "Pagina nu a fost găsită",
+    "soon": "În curând"
+  }, 
   "home_page": {
     "about_me": {
       "title": "cosmetician estetician, îndrăgostită de meseria sa.",
@@ -33,6 +37,7 @@
       "items": "Curățare facială atraumatică / cu aparat   •   Curățare facială combinată   •   Peelinguri   •   CEF   •   Sistem Smart4Derma Enzym-oxy   •   DMK (Danne Montague-King)   •   Microneedling (Dr.Pen)   •   Împachetări Multimasking (Flow of Beauty)   •   Terapie cu microcurenți (Zemits)   •   Plasonic   •   Stratosphere   •   Presoterapie"
     },
     "form": {
+      "title": "Rezervă acum",
       "name": "Numele dvs.",
       "phone": "Număr de telefon",
       "email": "Email (opțional)",
@@ -64,6 +69,9 @@
   "date_invalid": "Vă rugăm să selectați o dată validă",
   "services_required": "Selectați cel puțin un serviciu",
   "phone_invalid": "Vă rugăm să introduceți un număr de telefon valid"
+    },
+    "footer": {
+    "address": "Bulevardul Pipera 17, București,  014252, România"
     }
 
   }

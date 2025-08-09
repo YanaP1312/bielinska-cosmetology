@@ -16,6 +16,10 @@
     "switzerland": "Switzerland",
     "mix": "Germany & Ukraine"
   },
+  "dev": {
+    "not_found": "Page not found",
+  "soon": "Coming soon"
+  }, 
   "home_page": {
     "about_me": {
       "title": "a cosmetologist and aesthetician, truly in love with her profession.",
@@ -32,6 +36,7 @@
       "titles": "Facial care treatments • Body care treatments • Device-based treatments • Laser hair removal (Soprano Titanium) • Facial care treatments • Body care treatments • Device-based treatments • Laser hair removal (Soprano Titanium)",
       "items": "Atraumatic / device-assisted facial cleansing • Combined facial cleansing • Peelings • CEF • Smart4Derma Enzym-oxy System • DMK (Danne Montague-King) • Microneedling (Dr.Pen) • Multimasking wrap (Flow of Beauty) • Microcurrent therapy (Zemits) • Plasonic • Stratosphere • Pressotherapy"},
       "form": {
+        "title": "Book an Appointment",
         "name": "Your Name",
         "phone": "Phone Number",
         "email": "Email (optional)",
@@ -62,6 +67,9 @@
         "date_invalid": "Please select a valid date",
         "services_required": "Select at least one service",
         "phone_invalid": "Please enter a valid phone number"
+      },
+      "footer": {
+        "address": "17 Pipera Boulevard, Bucharest 014252, Romania"
       }
 
 }

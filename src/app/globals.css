@@ -8,6 +8,8 @@
   --color-text:  #1C1C1C;
   --color-accent: #EEDCE3;
   --color-additional: #8f5989;
+  --font-vibes: 'Vibes', cursive;
+
 
 
 
@@ -33,11 +35,35 @@
     box-sizing: border-box;
   }
 
+  :focus-visible {
+    outline: 2px solid var(--color-additional);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #F9F8F6 inset;
+    -webkit-text-fill-color: #1C1C1C;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  
+
   html, body {
     background-color: var(--color-background);
     color: var(--color-text);
     font-family: var(--font-cormorant);
     -webkit-font-smoothing: antialiased;
+  }
+
+  input, textarea{
+    outline: none;
+    resize: none;
+    box-shadow: #1C1C1C;
+  }
+
+  input:focus, textarea:focus{
+    outline: none;
+    border-color: var(--color-additional);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   }
 
 
@@ -49,6 +75,7 @@
     display: flex;
     animation: marquee 120s linear infinite;
   }
+
   
 }
 
@@ -65,6 +92,15 @@
 
  .section-m{@apply my-10 lg:my-14}
  .section-title{@apply text-center text-4xl text-primary font-vibes tracking-wider mb-10 md:text-5xl }
+ .footer-elements{@apply fill-primary hover-interaction  hover:text-additional hover:fill-additional }
+
+.input-style{@apply w-full p-2 px-3 border border-accent rounded-md hover:border-additional hover:shadow-md md:p-3 md:px-4 md:text-lg}
+
+.wrong-msg{@apply text-red-600 text-sm italic md:mt-1}
+
+.button{@apply bg-accent text-additional text-lg py-2 px-8 rounded hover-interaction font-medium text-center hover:bg-additional hover:text-accent md:px-12 md:text-xl}
+
+.img-services{@apply object-cover h-full w-full hover-interaction hover:scale-110}
 
 }
 

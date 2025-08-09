@@ -44,15 +44,15 @@ export default function Modal({
   return createPortal(
     <div
       onClick={handleBackdropClick}
-      className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center"
+      className="fixed inset-0 bg-black/50 flex items-center justify-center"
     >
-      <div className="bg-white p-6 rounded shadow-lg max-w-md w-full relative">
+      <div className="bg-white p-6 rounded shadow-lg max-w-md w-full mx-4 relative">
         <button
           onClick={onClose}
           aria-label="Close pop-up"
-          className="absolute top-6 right-4 hover:text-additional hover:scale-105 transition"
+          className="absolute top-6 right-6 hover-interaction hover:text-additional hover:scale-105 transition"
         >
-          <TfiClose className="w-6 h-6 fill-primary hover:fill-additional" />
+          <TfiClose className="w-6 h-6 fill-primary hover-interaction hover:fill-additional" />
         </button>
 
         {children}

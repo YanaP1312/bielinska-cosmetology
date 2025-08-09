@@ -10,20 +10,13 @@ import Header from '@/components/Header/Header';
 
 import { Cormorant_Garamond} from 'next/font/google';
 import { greatVibes } from '@/fonts/fonts';
+import Footer from '@/components/Footer/Footer';
 
 const cormorant = Cormorant_Garamond({
   weight: ['400', '500', '700'],
   subsets: ['latin', 'cyrillic'],
   variable: '--font-cormorant',
 });
-
-
-
-
-
-
-
-
 
 
  
@@ -55,18 +48,23 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: {locale: string};
 }) {
-  const {locale} = await params;
+  const {locale} =  params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
  
   return (
     <html lang={locale} className={`${cormorant.variable} ${greatVibes.variable} `}>
-      <body>
-        <NextIntlClientProvider><Header/>
-          {children}</NextIntlClientProvider>
+      <body className="min-h-screen flex flex-col">
+        <NextIntlClientProvider>
+          <Header/>
+          <main className="flex-grow">
+          {children}
+          </main>
+          <Footer/>
+          </NextIntlClientProvider>
       </body>
     </html>
   );

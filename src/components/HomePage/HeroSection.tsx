@@ -15,7 +15,7 @@ const HeroSection = async () => {
     </h1>
     <p className="font-vibes text-3xl tracking-widest font-medium text-center md:text-2xl lg:text-4xl">&quot;{t("mission")}&quot;</p>
     </div>
-    <Image src="/images/about_me/TV.jpg" alt="Tetiana Bielinska foto" width={328} height={491} className="border border-primary rounded-2xl w-max"/> 
+    <Image src="/images/about_me/TV.jpg" alt="Tetiana Bielinska foto" width={328} height={491} className="border border-primary rounded-xl w-max"/> 
          
          </div>
 
