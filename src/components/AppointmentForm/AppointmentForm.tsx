@@ -98,7 +98,7 @@ export default function AppointmentForm() {
                   value={service}
                   checked={form.services.includes(service)}
                   onChange={handleChange}
-                  className='w-4 h-4 accent-additional rounded'
+                  className='w-4 h-4 accent-additional rounded ml-2'
                   
                 />
                 <span>{service}</span>
@@ -155,7 +155,7 @@ name="date"
       {success && (
         <Modal onClose={() => setSuccess(false)}>
           <h2 className="text-lg my-6 mx-2 md:xl text-justify">
-            <span className='block text-additional font-vibes text-5xl text-justify mb-4'>{t('thankYou')}</span>{t('successMessage')}</h2>
+            <span className='block text-additional font-vibes text-5xl mb-4'>{t('thankYou')}</span>{t('successMessage')}</h2>
       
         </Modal>
       )}

@@ -13,10 +13,10 @@ const ServicesList = async () => {
   return (
     
    <div className="grid gap-6">
-     <div className="p-6 bg-white rounded-xl shadow-sm grid md:grid-cols-2 md:gap-5 lg:grid-cols-[1fr_2fr]">
+     <div className="p-6 bg-white rounded-xl shadow-sm grid md:grid-cols-2 md:gap-5 lg:grid-cols-2 lg:items-center ">
         <ServiceBlock key={services.face_care.id} title={services.face_care.title} description={services.face_care.description}  items={services.face_care.items} />
-        <div className="md:grid md:grid-cols-1 md:gap-5 lg:grid-cols-2">
-            <div className="md:flex md:flex-col md:gap-5">
+        <div className="md:grid md:grid-cols-1 md:gap-5 lg:grid-cols-2 lg:gap-2">
+            <div className="md:flex md:flex-col md:gap-5 lg:gap-2">
 <div className="overflow-hidden border border-primary rounded-xl h-[419px] md:h-[438px]">
         <Image src="/images/services/face/face_5.jpeg" alt="Tetiana Bielinska foto" width={328} height={491} className="img-services "/> 
         </div>
@@ -24,7 +24,7 @@ const ServicesList = async () => {
         <Image src="/images/services/face/face_2.jpeg" alt="Tetiana Bielinska foto" width={328} height={491} className="img-services "/> 
         </div>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 ">
         <div className="hidden w-full overflow-hidden border border-primary rounded-xl h-[438px] lg:block">
         <Image src="/images/services/face/face_4.jpeg" alt="Tetiana Bielinska foto" width={328} height={491} className="img-services"/></div>
         <div className="hidden w-full overflow-hidden border border-primary rounded-xl h-[438px] lg:block">

@@ -41,7 +41,7 @@
   }
 
   input:-webkit-autofill {
-    box-shadow: 0 0 0px 1000px #F9F8F6 inset;
+    box-shadow: 0 0 0px 1000px white inset;
     -webkit-text-fill-color: #1C1C1C;
     transition: background-color 5000s ease-in-out 0s;
   }
@@ -94,7 +94,7 @@
  .section-title{@apply text-center text-4xl text-primary font-vibes tracking-wider mb-10 md:text-5xl }
  .footer-elements{@apply fill-primary hover-interaction  hover:text-additional hover:fill-additional }
 
-.input-style{@apply w-full p-2 px-3 border border-accent rounded-md hover:border-additional hover:shadow-md md:p-3 md:px-4 md:text-lg}
+.input-style{@apply w-full p-2 px-3 border border-accent rounded-md hover-interaction hover:shadow-md hover:border-additional  md:p-3 md:px-4 md:text-lg lg:text-xl}
 
 .wrong-msg{@apply text-red-600 text-sm italic md:mt-1}
 
